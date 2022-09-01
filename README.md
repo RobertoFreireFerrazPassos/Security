@@ -1,5 +1,15 @@
 # Security
 
+## Some Concepts
+
+Cross-Origin Resource Sharing (CORS)
+
+<p align="center">
+  <img src="https://github.com/RobertoFreireFerrazPassos/Security/blob/main/img/CORS.jpeg?raw=true">
+</p>
+
+## Most common attacks:
+
 Injection Attacks
 
 Broken Authentication
