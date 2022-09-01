@@ -2,11 +2,24 @@
 
 ## Some Concepts
 
-Cross-Origin Resource Sharing (CORS)
+### Cross-Origin Resource Sharing (CORS)
 
 <p align="center">
   <img src="https://github.com/RobertoFreireFerrazPassos/Security/blob/main/img/CORS.jpeg?raw=true">
 </p>
+
+### Hashing password and salt
+
+When creating the user for the first time, the database doesn't store the actual password. 
+
+<p align="center">
+  <img src="https://github.com/RobertoFreireFerrazPassos/Security/blob/main/img/hashpasswordandsalt.PNG?raw=true">
+</p>
+
+To validate the login:
+
+- the application get the password (provided by the user) and the salt (stored in the database using user identification like e-mail)
+- the application hash these password and salt and validate with the hash stored in the database
 
 ## Most common attacks:
 
